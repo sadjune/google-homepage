@@ -1,0 +1,124 @@
+body{
+    font-family: arial, sans-serif; 
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+            
+}
+
+#navbar li {
+    float: right;
+    padding: 8px 16px;
+}
+#navbar li a{
+    text-decoration: none;
+    color:rgba(0,0,0,0.87);
+    font-size:13px;
+
+}
+
+#navbar a{
+    text-decoration: none;
+    color:rgba(0,0,0,0.87);
+    font-size:13px;
+}
+#navbar a:hover{
+    text-decoration: underline;
+}
+#butt{
+ border-color: #4485f5;
+ background: #4485f5;
+ padding: 0 12px;
+ box-shadow: 0 1px 0 rgba(0,0,0,.15);
+ border-radius: 2px;
+}
+#navbar #butt a{
+  color: white;
+  font-weight: bold;
+  line-height: 28px;
+}
+#app{
+  color: #000;
+  background-position: -132px -38px;
+  opacity: .55;
+  background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-size: 528px 68px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+}
+img{
+    padding-top: 109px;
+    margin-left:280px;
+    margin-bottom: 20px;
+       
+}
+#search-box{
+background-color: transparent;
+border: 1px solid #eee;
+display: flex;
+flex: 100%;
+width: 560px;
+height: 34px;
+font: 16px arial,sans-serif;
+margin-left:350px;
+margin-bottom: 20px;
+}
+
+#search-box:hover{
+   box-shadow: 1px 1px 1px 1px #757575;
+}
+.search-btn{
+background-color: #f2f2f2;
+border-radius: 2px;
+border: 1px solid #f2f2f2; 
+color: #757575;
+font-family: arial,sans-serif;
+font-size: 13px;
+font-weight: bold;
+margin: 11px 4px;
+min-width: 54px;
+padding: 0 16px;
+text-align: center;
+height: 36px;
+line-height: 27px;
+}
+.search-btn:hover{
+ border: 1px solid #757575;
+ color: #000;
+}
+footer{
+width: 1269px;
+height:50.5px;
+}
+footer{
+line-height: 28px;
+text-align: left;
+font-size: small;
+color: rgba(0,0,0,.54);
+background-color: #f2f2f2;
+margin-top:220px;
+}
+
+.footer a{
+text-decoration:none;
+font-size: small;
+color: rgba(0,0,0,.54);
+}
+.footer li{
+    padding: 10px;
+}
+.footer .left{
+    float:left;
+     }
+.footer .right{
+    float:right;
+  
+}
+.footer a:hover{
+    text-decoration: underline;
+}
